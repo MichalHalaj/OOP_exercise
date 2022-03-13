@@ -1,0 +1,14 @@
+1. V prečinku class je prvý jednoduchý kód, ktorý pracuje s triedou User a využíva dedičnosť pre triedu Admin, je tam použítý aj konštruktor, getter,setter pre vlasnosti
+a v triede Admin je pridaná jedna funkcia naviac
+
+Zvládnute: Trieda, dedičnosť( extends ), konštruktor, getters/setters, základné funkcie( public )
+
+
+
+--------------------------
+Postup / momentálne pokračujem podľa kurzu o základoch OOP v PHP
+
+Do 17.3 obsiahnúť Interface, Trait
+( predpokladám že tu už budem mať vyšší presah do metód, čo bude použité aj v kodoch ) 
+
+Do 20.3 Blog na OOP 
