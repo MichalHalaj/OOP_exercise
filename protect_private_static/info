@@ -1,0 +1,3 @@
+Kód nie je žiadna sláva, ani veda. Ale zdieľam ďálej postup s prácou s protect - metóda, ku ktorej sa môže pristupovať aj v rámci dedenia 
+private - iba v objekte, 
+static metóda - platí pre všetky classy
