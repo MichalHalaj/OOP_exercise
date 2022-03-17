@@ -1,0 +1,4 @@
+Upgrade kodu, kde som využil namespace, updatol som ich cez autoload pomocou composeru, 
+využil som abstract pre class bytosť, 
+pridal som metodu pomcou trait, ktorú využívajú Enemy, 
+pridal som pomcou interface metodu daruj, 
