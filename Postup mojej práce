@@ -1,14 +1,23 @@
-1. V prečinku class je prvý jednoduchý kód, ktorý pracuje s triedou User a využíva dedičnosť pre triedu Admin, je tam použítý aj konštruktor, getter,setter pre vlasnosti
-a v triede Admin je pridaná jedna funkcia naviac
+------Doterajšie učenie bolo rýchly prelet a pochopenie základných termínov a funkcií OOP. ---
 
-Zvládnute: Trieda, dedičnosť( extends ), konštruktor, getters/setters, základné metody( public )
+- naučil som sa čo je trieda, objekt, 
+- dedenie, atribúty a metódy, 
+- rozdiel medzi statickou, verejnou, chránenou a súkromnou metodou
+- Interface / trait
+- getters/setters, konštruktór
+- abstract
+
+Ciele na ďalší týždeň 
+
+Do 27.3 vypracovať praktické cvičenia na OOP -> link https://phpenthusiast.com/object-oriented-php-tutorials/create-classes-and-objects/practice
+Cvičenia budem pridávať s dátumom, aby v tom nezačal byť už bordel, chcem si to zopakovať, praktický nadtým premýšlať a dostať to do krvy
+
+do 31.3 mať obsiahnuté všetky pojmy, vymenované v maily
+
+Do 15.4 chcem obsiahnúť celý PHP kurz z videa, ktoré si posielal v maily, je tam dosť užitočných veci, ktoré by som mal vedieť 
 
 
 
---------------------------
-Postup / momentálne pokračujem podľa kurzu o základoch OOP v PHP
 
-Do 17.3 obsiahnúť Interface, Trait
-( predpokladám že tu už budem mať vyšší presah do metód, čo bude použité aj v kodoch ) 
 
-Do 20.3 Blog na OOP 
+
