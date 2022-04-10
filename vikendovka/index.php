@@ -15,10 +15,14 @@ $ludia[] = new Javista('Jan','Mičuda',26,'VS code zatiaľ');
 $ludia[] = new Javista('Imrich','Zárudsky',35,'VS code zatiaľ');
 
 // Dedenie + polymorfizmus na funkciu pozdrav
-foreach($ludia as $clovek)
+foreach ($ludia as $clovek)
 {
-    $clovek->pozdrav();
-    echo'<br>';
+    echo($clovek . '<br>');
+    if ($clovek instanceof Programator)
+    {
+        $clovek->programuj();
+        echo('<br>');
+    }
 }
 
 // Hromadná genocída :D
