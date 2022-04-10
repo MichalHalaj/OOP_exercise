@@ -1,6 +1,6 @@
 <?php
 
-class Javista extends Clovek 
+class Javista extends Clovek implements Programator
 {
     public string $ide;
 
