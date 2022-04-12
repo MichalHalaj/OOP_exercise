@@ -7,7 +7,7 @@ function showMeClassBejbe($trida)
 
 spl_autoload_register("showMeClassBejbe");
 
-$ludia = array();
+/*$ludia = array();
 $ludia[] = new Clovek('Michal','Halaj',27);
 $ludia[] = new Clovek('Samo','Rúfus',14);
 
@@ -32,4 +32,14 @@ foreach($ludia as $chudaci)
     $chudaci->behaj(10);
     echo $chudaci->celeMeno() . $chudaci->behaj(10);
     echo'<br>';
-}
+}*/
+
+$pes = new Pes('Bady', 5);
+$clovek = new Clovek('Ivan', 'Hrubý', 10, 'morder435');
+$javista = new Javista('Michal', 'Halaj', 27, 'aplly_hack_pass_NOW', 'VS Code');
+
+$pes->pozdrav();
+        echo('<br>');
+        $clovek->pozdrav();
+        echo('<br>');
+        $javista->programuj();
