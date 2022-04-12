@@ -1,20 +1,18 @@
 <?php
 
-class Javista extends Clovek implements Programator
+class Javista extends Clovek implements Programator 
 {
-    public string $ide;
+    public $ide;
 
-    public function __construct($meno,$priezvisko,$vek,$ide)
+    public function __construct($meno,$priezvisko,$vek,$heslo,$ide)
     {
-        $this->meno = $meno;
-        $this->priezvisko = $priezvisko;  
-        $this->vek = $vek;
         $this->ide = $ide;
+        parent::__construct($meno, $priezvisko, $vek, $heslo);
     }
 
     public function pozdrav()
 {
-    echo('Dobrý deň, ja si nič neobjednávam, iba dokončím jeden kód. Jsem ' . $this->meno);
+    echo('Dobrý deň, ja si nič neobjednávam, iba dokončím jeden kód. Jsem ' . $this->meno . ' | ID užívateľa: ' . $this->id);
 }
 
     public function programuj()
